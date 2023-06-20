@@ -1,0 +1,43 @@
+*,
+html {
+  font-size: 14px;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+main {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.video-canvas {
+  background-color: red;
+  width: 100%;
+  height: 540px;
+  position: relative;
+  margin: 1rem 0;
+}
+
+.video-canvas__loading {
+  position: absolute;
+  display: none;
+  bottom: 0;
+  height: 7px;
+  width: 0;
+  background-color: green;
+  z-index: 1;
+}
+
+.start-button {
+  width: 100%;
+  padding: 1.5ch 0;
+  cursor: pointer;
+}
